@@ -7,6 +7,7 @@
 # 프로젝트 만들기 
 - npx create-react-app react-basic(프로젝트 제목)
 
-
+# 리액트 컴포넌트 랜더링 조건
+- Hooks에 useState를 사용
 
 
