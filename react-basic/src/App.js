@@ -1,25 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+function App(){
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div>Hello World</div>
   );
 }
 
-export default App;
+export default App; // 내보내는 문법 -> 사용할 땐 import 사용
+
