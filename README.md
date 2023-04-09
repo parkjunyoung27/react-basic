@@ -19,3 +19,9 @@
 
 # axios 설치 
 - npm i axios
+
+# React Router 설치 
+- 한 화면 안에서 여러페이지 사용하기 위해 사용
+- npm install react-router-dom
+- exact는 경로가 정확히 일치해야 페이지가 나타나게 설정하는 값
+- Switch를 하는 이유는 Router로 경로를 타다가 맞으면 더 이상 다른 경로들을 찾지 않음
