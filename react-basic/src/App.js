@@ -7,7 +7,7 @@ function App(){
   const [body, setBody] = useState('');
   const onSubmit = () => {
     // console.log(title, body)
-    axios.post('http://localhost/3001/posts',
+    axios.post('http://localhost:3001/posts',
     {
       title,
       body
