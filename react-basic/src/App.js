@@ -3,28 +3,30 @@ import {
   Switch,
   Route
 } from 'react-router-dom'
-import BlogForm from './components/BlogForm';
 import NavBar from './components/Navbar';
-
+import HomePage from './pages/HomePage';
+import CreatePage from './pages/CreatePage';
+import EditPage from './pages/EditPage';
+import ListPage from './pages/ListPage';
 
 function App(){
 
   return (
     <Router>
       <NavBar/>
-      <div className="cotainer">
+      <div className="container">
         <Switch>
           <Route path="/" exact>
-            Home Page
+            <HomePage/>
           </Route>
-          <Route path="/blogs">
-            Blog List
+          <Route path="/blogs" exact>
+            <ListPage/>
           </Route>
-          <Route path="/blogs/create">
-            <BlogForm/>
+          <Route path="/blogs/create" exact>
+            <CreatePage/>
           </Route>
-          <Route path="/blogs/edit">
-            Blog Edit
+          <Route path="/blogs/edit" exact>
+            <EditPage/>
           </Route>
         </Switch>
       </div>
