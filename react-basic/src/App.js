@@ -18,7 +18,13 @@ function App(){
             Home Page
           </Route>
           <Route path="/blogs">
+            Blog List
+          </Route>
+          <Route path="/blogs/create">
             <BlogForm/>
+          </Route>
+          <Route path="/blogs/edit">
+            Blog Edit
           </Route>
         </Switch>
       </div>
