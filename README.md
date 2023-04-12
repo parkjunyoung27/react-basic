@@ -25,3 +25,14 @@
 - npm install react-router-dom
 - exact는 경로가 정확히 일치해야 페이지가 나타나게 설정하는 값
 - Switch를 하는 이유는 Router로 경로를 타다가 맞으면 더 이상 다른 경로들을 찾지 않음
+
+# map 함수 
+- 예시 1:
+- const arr = [1,2,3];
+- const res1 = arr.map((value) => {return value * 2});
+- const res3 = arr.map((value, index) => index);
+- 예시 2: 
+- const items = [{id:1, name:'Kossie'},{id:2, name:'Coder'}]
+- const result1 = items.map((item)=>{
+    return {id: item.id}
+});
