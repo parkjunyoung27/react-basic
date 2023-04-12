@@ -36,3 +36,5 @@
 - const result1 = items.map((item)=>{
     return {id: item.id}
 });
+
+# 리액트가 single page인 이유
