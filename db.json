@@ -4,6 +4,16 @@
       "id": 1,
       "title": "json-server",
       "author": "typicode"
+    },
+    {
+      "title": "test",
+      "body": "test",
+      "id": 2
+    },
+    {
+      "title": "test",
+      "body": "test",
+      "id": 3
     }
   ],
   "comments": [
