@@ -38,3 +38,6 @@
 });
 
 # 리액트가 single page인 이유
+
+# useEffect
+- usefeect에서 한 번 실행 한 후 리랜더링을 하지 않는다.

@@ -12,6 +12,7 @@ const BlogForm = () => {
         title,
         body
       })
+
      }
 
     return (
